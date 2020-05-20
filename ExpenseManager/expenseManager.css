@@ -1,0 +1,61 @@
+body {
+    background: rgb( 240, 240, 240);
+}
+
+h1 {
+    text-align: center;
+}
+
+#mainContainer {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+}
+
+#mainContainer > div {
+    padding: 10px;
+    border: 1px solid brown;
+    background: #fff;
+    border-radius: 20px;
+}
+
+#mainContainer {
+    margin:20px;
+}
+
+.imageDiv {
+    float: left;
+    width: 33%;
+    height: 100%;
+    /* border: 1px solid #000; */
+}
+
+.textDiv {
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    /* border: 1px solid #000; */
+}
+
+input {
+    height: 20px;
+    margin: 5px;
+    background: rgb( 240, 240, 240);;
+}
+
+p > i {
+    font-size: 25px;
+    color: rgb(56, 83, 95);
+}
+
+button {
+    margin: 20px;
+    font-size: 18px;
+    height: 30px;
+    width: 100px;
+    background: rgb(98, 150, 131);
+    color: #fff;
+    border-radius: 3px;
+}
